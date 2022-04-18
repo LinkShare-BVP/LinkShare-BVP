@@ -12,7 +12,7 @@ async function sendMail ({ from, to, subject, text, html}) {
 
         // send mail with defined transport object
     let info = await transporter.sendMail({
-                from: `inShare <${from}>`, // sender address
+                from: `LinkShare <${from}>`, // sender address
                 to, // list of receivers
                 subject, // Subject line
                 text, // plain text body
